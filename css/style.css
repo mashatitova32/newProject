@@ -56,7 +56,6 @@ a, .dropbtn{
     background-color: transparent;
     border-color: transparent;
 }
-
 .dropbtn:after{
     display: inline-block;
     margin-left: 5px;
