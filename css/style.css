@@ -3,7 +3,7 @@
     99C63D
     A1CB46
 */
-p{
+h1, h2, h3, h4, li,ul,ol, p{
     font-family: 'Inter', sans-serif;
     font-weight: normal;
 }
@@ -16,6 +16,10 @@ p{
     width: 100%;
     max-width: 1200px;
     margin: auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
 }
 header{
     padding: 20px;
@@ -43,7 +47,7 @@ header{
 .social a{
     margin-right: 5px;
 }
-li{
+header li{
     list-style: none;
 }
 a, .dropbtn{
@@ -100,3 +104,38 @@ a, .dropbtn{
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
+
+.contsept{
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgba(153, 198, 61, 0.25);
+}
+.contsept h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.contsept h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contsept .description{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.ul-list{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.contsept .list{
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.contsept li{
+    margin-bottom: 15px;
+}
+.contsept li:first-of-type{
+    margin-top: 15px;
+}
+
