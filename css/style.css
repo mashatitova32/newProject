@@ -141,8 +141,7 @@ a, .dropbtn{
 
 .carusel{
     padding: 50px 0;
-    background-color: rgba(153, 198, 61, 0.25);
-
+    background-color: rgba(153, 198, 61, 0.20);
 }
 .carusel h2{
     text-align: center;
